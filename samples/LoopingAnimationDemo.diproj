@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project Version="1.0">
-  <Title>Your Project Name</Title>
-  <Summary>sample projects</Summary>
+  <Title>Looping Animation Demo</Title>
+  <Summary>Developer doc for the "looping animation demo" sample projects</Summary>
   <Author>Patrick PREMARTIN</Author>
   <Email>patrick@premartin.fr</Email>
-  <Copyright>(c) xxxx-2025 PATRICK PREMARTIN</Copyright>
+  <Copyright>(c) 2025 PATRICK PREMARTIN</Copyright>
   <Comment/>
   <Language>2057</Language>
   <Charset>1</Charset>
   <HeaderHtml>&lt;%TopicTitle%&gt;</HeaderHtml>
-  <FooterHtml>&lt;a href=" xxx" target="_blank"&gt; xxx&lt;/a&gt; (c) xxxx-2025 &lt;a href="https://patrick.premartin.fr" target="_blank"&gt;Patrick PREMARTIN&lt;/a&gt; - Powered by &lt;a href="https://devjetsoftware.com/products/documentation-insight/" target="_blank"&gt;DocInsight&lt;/a&gt;</FooterHtml>
+  <FooterHtml>&lt;a href="https://github.com/DeveloppeurPascal/LoopingAnimationDemo" target="_blank"&gt;Looping Animation Demo&lt;/a&gt; (c) 2025 &lt;a href="https://patrick.premartin.fr" target="_blank"&gt;Patrick PREMARTIN&lt;/a&gt; - Powered by &lt;a href="https://devjetsoftware.com/products/documentation-insight/" target="_blank"&gt;DocInsight&lt;/a&gt;</FooterHtml>
   <CustomDefines/>
   <ShowImplementationSection>false</ShowImplementationSection>
   <ShowPrivateMembers>false</ShowPrivateMembers>
@@ -27,7 +27,7 @@
     </Output>
     <Output Type="CHM">
       <Active>true</Active>
-      <OutputFileName>..\YourProjectName.chm</OutputFileName>
+      <OutputFileName>..\LoopingAnimationDemo.chm</OutputFileName>
     </Output>
     <Output Type="MSHELP2">
       <Active>false</Active>
