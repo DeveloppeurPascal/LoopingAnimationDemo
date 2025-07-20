@@ -1,0 +1,424 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD>
+<BODY>
+    <OBJECT type="text/site properties">
+      <param name="Window Styles" value="0x800227">
+    </OBJECT>
+    <UL>      <LI> <OBJECT type="text/sitemap">
+          <param name="Name" value="Looping Animation Demo">
+          <param name="Local" value="Looping-Animation-Demo.html">
+          </OBJECT>
+      <LI> <OBJECT type="text/sitemap">
+          <param name="Name" value="FMXShowFPS">
+          <param name="Local" value="FMXShowFPS.html">
+          </OBJECT>
+          <UL>
+              <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="FMXShowFPSMainForm">
+                  <param name="Local" value="FMXShowFPSMainForm.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TfrmShowFPSMainForm">
+                                  <param name="Local" value="FMXShowFPSMainForm.TfrmShowFPSMainForm.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Properties">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FramePerSecond">
+                                                  <param name="Local" value="FMXShowFPSMainForm.TfrmShowFPSMainForm.FramePerSecond.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="DoTimerLoop">
+                                                  <param name="Local" value="FMXShowFPSMainForm.TfrmShowFPSMainForm.DoTimerLoop.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FormCreate">
+                                                  <param name="Local" value="FMXShowFPSMainForm.TfrmShowFPSMainForm.FormCreate.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FormHide">
+                                                  <param name="Local" value="FMXShowFPSMainForm.TfrmShowFPSMainForm.FormHide.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FormShow">
+                                                  <param name="Local" value="FMXShowFPSMainForm.TfrmShowFPSMainForm.FormShow.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="TimerLoopTimer">
+                                                  <param name="Local" value="FMXShowFPSMainForm.TfrmShowFPSMainForm.TimerLoopTimer.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Fields">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Panel1">
+                                                  <param name="Local" value="FMXShowFPSMainForm.TfrmShowFPSMainForm.Panel1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="TimerLoop">
+                                                  <param name="Local" value="FMXShowFPSMainForm.TfrmShowFPSMainForm.TimerLoop.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lblShowFPS">
+                                                  <param name="Local" value="FMXShowFPSMainForm.TfrmShowFPSMainForm.lblShowFPS.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Variables">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="frmShowFPSMainForm">
+                                  <param name="Local" value="FMXShowFPSMainForm.frmShowFPSMainForm.html">
+                                  </OBJECT>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Constants">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CTargetFPS">
+                                  <param name="Local" value="FMXShowFPSMainForm.CTargetFPS.html">
+                                  </OBJECT>
+                          </UL>
+                  </UL>
+          </UL>
+      <LI> <OBJECT type="text/sitemap">
+          <param name="Name" value="VCLShowFPS">
+          <param name="Local" value="VCLShowFPS.html">
+          </OBJECT>
+          <UL>
+              <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="VCLShowFPSMainForm">
+                  <param name="Local" value="VCLShowFPSMainForm.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TfrmShowFPSMainForm">
+                                  <param name="Local" value="VCLShowFPSMainForm.TfrmShowFPSMainForm.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Properties">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FramePerSecond">
+                                                  <param name="Local" value="VCLShowFPSMainForm.TfrmShowFPSMainForm.FramePerSecond.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="DoTimerLoop">
+                                                  <param name="Local" value="VCLShowFPSMainForm.TfrmShowFPSMainForm.DoTimerLoop.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FormCreate">
+                                                  <param name="Local" value="VCLShowFPSMainForm.TfrmShowFPSMainForm.FormCreate.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FormHide">
+                                                  <param name="Local" value="VCLShowFPSMainForm.TfrmShowFPSMainForm.FormHide.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FormShow">
+                                                  <param name="Local" value="VCLShowFPSMainForm.TfrmShowFPSMainForm.FormShow.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="TimerLoopTimer">
+                                                  <param name="Local" value="VCLShowFPSMainForm.TfrmShowFPSMainForm.TimerLoopTimer.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Fields">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Panel1">
+                                                  <param name="Local" value="VCLShowFPSMainForm.TfrmShowFPSMainForm.Panel1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="TimerLoop">
+                                                  <param name="Local" value="VCLShowFPSMainForm.TfrmShowFPSMainForm.TimerLoop.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lblShowFPS">
+                                                  <param name="Local" value="VCLShowFPSMainForm.TfrmShowFPSMainForm.lblShowFPS.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Variables">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="frmShowFPSMainForm">
+                                  <param name="Local" value="VCLShowFPSMainForm.frmShowFPSMainForm.html">
+                                  </OBJECT>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Constants">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CTargetFPS">
+                                  <param name="Local" value="VCLShowFPSMainForm.CTargetFPS.html">
+                                  </OBJECT>
+                          </UL>
+                  </UL>
+          </UL>
+      <LI> <OBJECT type="text/sitemap">
+          <param name="Name" value="FMXStarFieldBackground">
+          <param name="Local" value="FMXStarFieldBackground.html">
+          </OBJECT>
+          <UL>
+              <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="FMXShowFPSMainForm">
+                  <param name="Local" value="FMXShowFPSMainForm.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TfrmShowFPSMainForm">
+                                  <param name="Local" value="FMXShowFPSMainForm.TfrmShowFPSMainForm.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Properties">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FramePerSecond">
+                                                  <param name="Local" value="FMXShowFPSMainForm.TfrmShowFPSMainForm.FramePerSecond.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="DoTimerLoop">
+                                                  <param name="Local" value="FMXShowFPSMainForm.TfrmShowFPSMainForm.DoTimerLoop.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FormCreate">
+                                                  <param name="Local" value="FMXShowFPSMainForm.TfrmShowFPSMainForm.FormCreate.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FormHide">
+                                                  <param name="Local" value="FMXShowFPSMainForm.TfrmShowFPSMainForm.FormHide.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FormShow">
+                                                  <param name="Local" value="FMXShowFPSMainForm.TfrmShowFPSMainForm.FormShow.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="TimerLoopTimer">
+                                                  <param name="Local" value="FMXShowFPSMainForm.TfrmShowFPSMainForm.TimerLoopTimer.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Fields">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Panel1">
+                                                  <param name="Local" value="FMXShowFPSMainForm.TfrmShowFPSMainForm.Panel1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="TimerLoop">
+                                                  <param name="Local" value="FMXShowFPSMainForm.TfrmShowFPSMainForm.TimerLoop.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lblShowFPS">
+                                                  <param name="Local" value="FMXShowFPSMainForm.TfrmShowFPSMainForm.lblShowFPS.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Variables">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="frmShowFPSMainForm">
+                                  <param name="Local" value="FMXShowFPSMainForm.frmShowFPSMainForm.html">
+                                  </OBJECT>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Constants">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CTargetFPS">
+                                  <param name="Local" value="FMXShowFPSMainForm.CTargetFPS.html">
+                                  </OBJECT>
+                          </UL>
+                  </UL>
+              <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="FMXStarFieldBackgroundMainForm">
+                  <param name="Local" value="FMXStarFieldBackgroundMainForm.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TfrmStarFieldBackgroundMainForm">
+                                  <param name="Local" value="FMXStarFieldBackgroundMainForm.TfrmStarFieldBackgroundMainForm.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Properties">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="CenterX">
+                                                  <param name="Local" value="FMXStarFieldBackgroundMainForm.TfrmStarFieldBackgroundMainForm.CenterX.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="CenterY">
+                                                  <param name="Local" value="FMXStarFieldBackgroundMainForm.TfrmStarFieldBackgroundMainForm.CenterY.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="StarField">
+                                                  <param name="Local" value="FMXStarFieldBackgroundMainForm.TfrmStarFieldBackgroundMainForm.StarField.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="VX">
+                                                  <param name="Local" value="FMXStarFieldBackgroundMainForm.TfrmStarFieldBackgroundMainForm.VX.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="VY">
+                                                  <param name="Local" value="FMXStarFieldBackgroundMainForm.TfrmStarFieldBackgroundMainForm.VY.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="velocity">
+                                                  <param name="Local" value="FMXStarFieldBackgroundMainForm.TfrmStarFieldBackgroundMainForm.velocity.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="DoTimerLoop">
+                                                  <param name="Local" value="FMXStarFieldBackgroundMainForm.TfrmStarFieldBackgroundMainForm.DoTimerLoop.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FormCreate">
+                                                  <param name="Local" value="FMXStarFieldBackgroundMainForm.TfrmStarFieldBackgroundMainForm.FormCreate.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="InitStarField">
+                                                  <param name="Local" value="FMXStarFieldBackgroundMainForm.TfrmStarFieldBackgroundMainForm.InitStarField.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="imgStarFieldResized">
+                                                  <param name="Local" value="FMXStarFieldBackgroundMainForm.TfrmStarFieldBackgroundMainForm.imgStarFieldResized.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Fields">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="imgStarField">
+                                                  <param name="Local" value="FMXStarFieldBackgroundMainForm.TfrmStarFieldBackgroundMainForm.imgStarField.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Records">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TStar">
+                                  <param name="Local" value="FMXStarFieldBackgroundMainForm.TStar.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Fields">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="X">
+                                                  <param name="Local" value="FMXStarFieldBackgroundMainForm.TStar.X.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Y">
+                                                  <param name="Local" value="FMXStarFieldBackgroundMainForm.TStar.Y.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ZIndex">
+                                                  <param name="Local" value="FMXStarFieldBackgroundMainForm.TStar.ZIndex.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Types">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TStarField">
+                                  <param name="Local" value="FMXStarFieldBackgroundMainForm.TStarField.html">
+                                  </OBJECT>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Variables">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="frmStarFieldBackgroundMainForm">
+                                  <param name="Local" value="FMXStarFieldBackgroundMainForm.frmStarFieldBackgroundMainForm.html">
+                                  </OBJECT>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Constants">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CNBStars">
+                                  <param name="Local" value="FMXStarFieldBackgroundMainForm.CNBStars.html">
+                                  </OBJECT>
+                          </UL>
+                  </UL>
+          </UL>
+    </UL>
+</BODY>
+</HTML>
