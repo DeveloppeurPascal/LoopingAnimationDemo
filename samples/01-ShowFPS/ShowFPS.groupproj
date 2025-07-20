@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{8BDD30C0-BF0F-4724-B83E-310C21BF3212}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="VCL\VCLShowFPS.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="FMX\FMXShowFPS.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="VCLShowFPS">
+        <MSBuild Projects="VCL\VCLShowFPS.dproj"/>
+    </Target>
+    <Target Name="VCLShowFPS:Clean">
+        <MSBuild Projects="VCL\VCLShowFPS.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="VCLShowFPS:Make">
+        <MSBuild Projects="VCL\VCLShowFPS.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FMXShowFPS">
+        <MSBuild Projects="FMX\FMXShowFPS.dproj"/>
+    </Target>
+    <Target Name="FMXShowFPS:Clean">
+        <MSBuild Projects="FMX\FMXShowFPS.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FMXShowFPS:Make">
+        <MSBuild Projects="FMX\FMXShowFPS.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="VCLShowFPS;FMXShowFPS"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="VCLShowFPS:Clean;FMXShowFPS:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="VCLShowFPS:Make;FMXShowFPS:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

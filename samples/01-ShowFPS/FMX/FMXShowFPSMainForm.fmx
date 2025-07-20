@@ -1,0 +1,43 @@
+object frmShowFPSMainForm: TfrmShowFPSMainForm
+  Left = 0
+  Top = 0
+  Caption = 'frmShowFPSMainForm'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnShow = FormShow
+  OnHide = FormHide
+  DesignerMasterStyle = 0
+  object Panel1: TPanel
+    Align = Bottom
+    Position.Y = 439.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object lblShowFPS: TLabel
+      Align = Left
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 120.000000000000000000
+      Size.Height = 31.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'lblShowFPS'
+      TabOrder = 0
+    end
+  end
+  object TimerLoop: TTimer
+    Enabled = False
+    Interval = 16
+    OnTimer = TimerLoopTimer
+    Left = 304
+    Top = 224
+  end
+end
