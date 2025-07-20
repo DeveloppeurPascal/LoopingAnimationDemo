@@ -1,0 +1,17 @@
+inherited frmStarFieldBackgroundMainForm: TfrmStarFieldBackgroundMainForm
+  Caption = 'frmStarFieldBackgroundMainForm'
+  FullScreen = True
+  DesignerMasterStyle = 0
+  object imgStarField: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Align = Client
+    HitTest = False
+    Size.Width = 640.000000000000000000
+    Size.Height = 439.000000000000000000
+    Size.PlatformDefault = False
+    WrapMode = Original
+    OnResized = imgStarFieldResized
+  end
+end
