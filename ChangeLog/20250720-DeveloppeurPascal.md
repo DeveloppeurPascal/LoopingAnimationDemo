@@ -8,3 +8,5 @@
 
 * codage des exemples FireMonkey et VCL pour définir un FPS cible et calculer le FPS et DeltaTime en cours
 * codage des exemples FireMonkey pour dessiner un champ d'étoiles sur plusieurs plans qui bougent en même temps
+
+* mise à jour des paramètres de DocInsight et génération de la doc pour les 3 premiers projets de démo
