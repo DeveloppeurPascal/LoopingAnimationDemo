@@ -1,0 +1,4 @@
+inherited frmMeteorsExplosionsMainForm: TfrmMeteorsExplosionsMainForm
+  Caption = 'frmMeteorsMovesMainForm1'
+  DesignerMasterStyle = 0
+end
