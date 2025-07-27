@@ -25,8 +25,8 @@
   https://github.com/DeveloppeurPascal/LoopingAnimationDemo
 
   ***************************************************************************
-  File last update : 2025-07-27T17:49:04.000+02:00
-  Signature : 37674f5a715cdd3252550c152219903de56278c9
+  File last update : 2025-07-27T18:06:30.000+02:00
+  Signature : 135ef54ad6b28c9686dfe533c90cc6bb5f29abd8
   ***************************************************************************
 *)
 
@@ -80,7 +80,7 @@ type
     procedure Setvelocity(const Value: single);
   protected
     procedure DoTimerLoop(const FPS: Int64; const DeltaTime: Int64); override;
-    procedure DoResetSpeedAndPosition;
+    procedure DoResetSpeedAndPosition; virtual;
   public
     property StarField: TStarField read FStarField write SetStarField;
     property CenterX: single read FCenterX write SetCenterX;
