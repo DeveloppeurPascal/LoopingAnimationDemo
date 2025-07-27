@@ -25,8 +25,8 @@
   https://github.com/DeveloppeurPascal/LoopingAnimationDemo
 
   ***************************************************************************
-  File last update : 2025-07-27T15:33:52.000+02:00
-  Signature : e31db350a93e19ab7a5ac4751345ca87650a57b5
+  File last update : 2025-07-27T16:49:18.000+02:00
+  Signature : ecd5ab78127acd3633e3819855a50d9a453ff726
   ***************************************************************************
 *)
 
@@ -118,21 +118,25 @@ begin
   begin
     velocity := 1;
     VX := 1 + random(5);
+    CenterX := -w;
   end;
   if CenterY <= -h then
   begin
     velocity := 1;
     VY := 1 + random(5);
+    CenterY := -h;
   end;
   if CenterX >= w then
   begin
     velocity := 1;
     VX := -1 - random(5);
+    CenterX := w;
   end;
   if CenterY >= h then
   begin
     velocity := 1;
     VY := -1 - random(5);
+    CenterY := h;
   end;
 
   ViewPortXTopLeft := CenterX - round(w / 2);
