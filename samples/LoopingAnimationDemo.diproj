@@ -23,6 +23,10 @@
     <Source>.\01-ShowFPS\FMX\FMXShowFPS.dpr</Source>
     <Source>.\01-ShowFPS\VCL\VCLShowFPS.dpr</Source>
     <Source>.\02-StarFieldBackground\FMX\FMXStarFieldBackground.dpr</Source>
+    <Source>.\03-WithComponents\01-Ship\01-ShipMoves\FireMonkey\FMXShipMoves.dpr</Source>
+    <Source>.\03-WithComponents\01-Ship\02-ShipExplosions\FireMonkey\FMXShipExplosions.dpr</Source>
+    <Source>.\03-WithComponents\02-Meteors\01-MeteorsMoves\FireMonkey\FMXMeteorMoves.dpr</Source>
+    <Source>.\03-WithComponents\02-Meteors\02-MeteorsExplosions\FireMonkey\FMXMeteorsExplosions.dpr</Source>
   </Sources>
   <Outputs>
     <Output Type="HTML">
