@@ -25,8 +25,8 @@
   https://github.com/DeveloppeurPascal/LoopingAnimationDemo
 
   ***************************************************************************
-  File last update : 2025-07-20T19:43:46.000+02:00
-  Signature : e7056975bd142bd4268a0ce29c3c685bc9fe96e8
+  File last update : 2025-07-27T15:33:52.000+02:00
+  Signature : e31db350a93e19ab7a5ac4751345ca87650a57b5
   ***************************************************************************
 *)
 
@@ -153,7 +153,7 @@ begin
           (TRectF.Create(StarField[i].X - ViewPortXTopLeft,
           StarField[i].Y - ViewPortYTopLeft, StarField[i].X - ViewPortXTopLeft +
           StarField[i].ZIndex * 2, StarField[i].Y - ViewPortYTopLeft +
-          StarField[i].ZIndex * 2), 1 - StarField[i].ZIndex * 0.2);
+          StarField[i].ZIndex * 2), StarField[i].ZIndex * 0.2);
       end;
   finally
     imgStarField.Bitmap.Canvas.EndScene;
