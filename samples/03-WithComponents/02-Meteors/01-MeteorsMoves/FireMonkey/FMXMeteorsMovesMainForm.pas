@@ -25,8 +25,8 @@
   https://github.com/DeveloppeurPascal/LoopingAnimationDemo
 
   ***************************************************************************
-  File last update : 2025-07-27T19:30:42.000+02:00
-  Signature : 66f7c0d7f389b042c50b6c187259dcf01e619eaf
+  File last update : 2025-07-27T20:00:44.000+02:00
+  Signature : d6fda73d40e126beb19a5445e8193b58dd104c48
   ***************************************************************************
 *)
 
@@ -69,6 +69,7 @@ type
     procedure SetVY(const Value: integer);
     procedure SetX(const Value: integer);
     procedure SetY(const Value: integer);
+    procedure SetDestroyed(const Value: boolean);
   protected
     FImg: TImage;
   public
@@ -77,7 +78,7 @@ type
     property VX: integer read FVX write SetVX;
     property VY: integer read FVY write SetVY;
     property Velocity: Single read FVelocity write SetVelocity;
-    property IsDestroyed: boolean read FDestroyed;
+    property IsDestroyed: boolean read FDestroyed write SetDestroyed;
     constructor Create(const AW, AH: integer; const AParent: TFmxObject;
       const BitmapScale: Single); virtual;
     destructor Destroy; override;
@@ -232,6 +233,11 @@ begin
     FImg.Position.X := FX - ViewPortXTopLeft;
     FImg.Position.Y := FY - ViewPortYTopLeft;
   end;
+end;
+
+procedure TSpriteMeteor.SetDestroyed(const Value: boolean);
+begin
+  FDestroyed := Value;
 end;
 
 procedure TSpriteMeteor.SetVelocity(const Value: Single);
