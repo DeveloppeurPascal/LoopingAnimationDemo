@@ -1,0 +1,108 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{B3EDFE70-72EB-415B-AEDB-24E8C551F45D}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="01-ShowFPS\FMX\FMXShowFPS.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="01-ShowFPS\VCL\VCLShowFPS.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="02-StarFieldBackground\FMX\FMXStarFieldBackground.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="03-WithComponents\01-Ship\01-ShipMoves\FireMonkey\FMXShipMoves.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="03-WithComponents\01-Ship\02-ShipExplosions\FireMonkey\FMXShipExplosions.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="03-WithComponents\02-Meteors\01-MeteorsMoves\FireMonkey\FMXMeteorMoves.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="03-WithComponents\02-Meteors\02-MeteorsExplosions\FireMonkey\FMXMeteorsExplosions.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="FMXShowFPS">
+        <MSBuild Projects="01-ShowFPS\FMX\FMXShowFPS.dproj"/>
+    </Target>
+    <Target Name="FMXShowFPS:Clean">
+        <MSBuild Projects="01-ShowFPS\FMX\FMXShowFPS.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FMXShowFPS:Make">
+        <MSBuild Projects="01-ShowFPS\FMX\FMXShowFPS.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="VCLShowFPS">
+        <MSBuild Projects="01-ShowFPS\VCL\VCLShowFPS.dproj"/>
+    </Target>
+    <Target Name="VCLShowFPS:Clean">
+        <MSBuild Projects="01-ShowFPS\VCL\VCLShowFPS.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="VCLShowFPS:Make">
+        <MSBuild Projects="01-ShowFPS\VCL\VCLShowFPS.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FMXStarFieldBackground">
+        <MSBuild Projects="02-StarFieldBackground\FMX\FMXStarFieldBackground.dproj"/>
+    </Target>
+    <Target Name="FMXStarFieldBackground:Clean">
+        <MSBuild Projects="02-StarFieldBackground\FMX\FMXStarFieldBackground.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FMXStarFieldBackground:Make">
+        <MSBuild Projects="02-StarFieldBackground\FMX\FMXStarFieldBackground.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FMXShipMoves">
+        <MSBuild Projects="03-WithComponents\01-Ship\01-ShipMoves\FireMonkey\FMXShipMoves.dproj"/>
+    </Target>
+    <Target Name="FMXShipMoves:Clean">
+        <MSBuild Projects="03-WithComponents\01-Ship\01-ShipMoves\FireMonkey\FMXShipMoves.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FMXShipMoves:Make">
+        <MSBuild Projects="03-WithComponents\01-Ship\01-ShipMoves\FireMonkey\FMXShipMoves.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FMXShipExplosions">
+        <MSBuild Projects="03-WithComponents\01-Ship\02-ShipExplosions\FireMonkey\FMXShipExplosions.dproj"/>
+    </Target>
+    <Target Name="FMXShipExplosions:Clean">
+        <MSBuild Projects="03-WithComponents\01-Ship\02-ShipExplosions\FireMonkey\FMXShipExplosions.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FMXShipExplosions:Make">
+        <MSBuild Projects="03-WithComponents\01-Ship\02-ShipExplosions\FireMonkey\FMXShipExplosions.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FMXMeteorMoves">
+        <MSBuild Projects="03-WithComponents\02-Meteors\01-MeteorsMoves\FireMonkey\FMXMeteorMoves.dproj"/>
+    </Target>
+    <Target Name="FMXMeteorMoves:Clean">
+        <MSBuild Projects="03-WithComponents\02-Meteors\01-MeteorsMoves\FireMonkey\FMXMeteorMoves.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FMXMeteorMoves:Make">
+        <MSBuild Projects="03-WithComponents\02-Meteors\01-MeteorsMoves\FireMonkey\FMXMeteorMoves.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FMXMeteorsExplosions">
+        <MSBuild Projects="03-WithComponents\02-Meteors\02-MeteorsExplosions\FireMonkey\FMXMeteorsExplosions.dproj"/>
+    </Target>
+    <Target Name="FMXMeteorsExplosions:Clean">
+        <MSBuild Projects="03-WithComponents\02-Meteors\02-MeteorsExplosions\FireMonkey\FMXMeteorsExplosions.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FMXMeteorsExplosions:Make">
+        <MSBuild Projects="03-WithComponents\02-Meteors\02-MeteorsExplosions\FireMonkey\FMXMeteorsExplosions.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="FMXShowFPS;VCLShowFPS;FMXStarFieldBackground;FMXShipMoves;FMXShipExplosions;FMXMeteorMoves;FMXMeteorsExplosions"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="FMXShowFPS:Clean;VCLShowFPS:Clean;FMXStarFieldBackground:Clean;FMXShipMoves:Clean;FMXShipExplosions:Clean;FMXMeteorMoves:Clean;FMXMeteorsExplosions:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="FMXShowFPS:Make;VCLShowFPS:Make;FMXStarFieldBackground:Make;FMXShipMoves:Make;FMXShipExplosions:Make;FMXMeteorMoves:Make;FMXMeteorsExplosions:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
