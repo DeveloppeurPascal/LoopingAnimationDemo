@@ -61,7 +61,6 @@ type
     FExplosionType: TImageList;
     procedure SetExplosionFrame(const Value: integer);
     procedure SetExplosionType(const Value: TImageList);
-
   protected
     procedure DoTimerLoop(const FPS: Int64; const DeltaTime: Int64); override;
     procedure DoStartShipExplosion; virtual;
