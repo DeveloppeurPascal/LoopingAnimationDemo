@@ -1,0 +1,14 @@
+inherited frmShipExplosionsMainForm: TfrmShipExplosionsMainForm
+  Caption = 'frmShipMovesMainForm1'
+  DesignerMasterStyle = 0
+  inherited Panel1: TPanel
+    OnClick = Panel1Click
+  end
+  object imgShipExplosion: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Align = Center
+    HitTest = False
+  end
+end
