@@ -1,4 +1,4 @@
-# 20250720 - [DeveloppeurPascal](https://github.com/XXX_USER_XXX)
+# 20250720 - [DeveloppeurPascal](https://github.com/DeveloppeurPascal)
 
 * ajout du son d'explosion provenant d'OpenGameArt.org dans les assets du projet
 * ajout des bitmaps des images provenant de Kenney.nl sous forme de listes d'images FMX
