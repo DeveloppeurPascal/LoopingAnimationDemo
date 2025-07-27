@@ -25,8 +25,8 @@
   https://github.com/DeveloppeurPascal/LoopingAnimationDemo
 
   ***************************************************************************
-  File last update : 2025-07-20T18:11:28.000+02:00
-  Signature : cdd8fe2270d31a92b28666ee3acd533d52434893
+  File last update : 2025-07-27T17:05:36.000+02:00
+  Signature : 2d2fd6d5cbed7007adecef9811c2ed9f98fe9065
   ***************************************************************************
 *)
 
@@ -107,7 +107,7 @@ end;
 
 procedure TfrmShowFPSMainForm.DoTimerLoop(const FPS, DeltaTime: int64);
 begin
-  lblShowFPS.Text := 'FPS : ' + FPS.ToString;
+  lblShowFPS.Text := 'FPS:' + FPS.ToString;
 end;
 
 procedure TfrmShowFPSMainForm.FormCreate(Sender: TObject);
