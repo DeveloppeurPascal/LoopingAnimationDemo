@@ -1,0 +1,13 @@
+inherited frmShipMovesMainForm: TfrmShipMovesMainForm
+  Caption = 'frmStarFieldBackgroundMainForm1'
+  DesignerMasterStyle = 0
+  object imgShip: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Align = Center
+    Size.Width = 64.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+  end
+end
