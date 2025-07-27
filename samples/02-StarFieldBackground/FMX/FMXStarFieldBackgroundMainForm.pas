@@ -25,8 +25,8 @@
   https://github.com/DeveloppeurPascal/LoopingAnimationDemo
 
   ***************************************************************************
-  File last update : 2025-07-27T16:49:18.000+02:00
-  Signature : ecd5ab78127acd3633e3819855a50d9a453ff726
+  File last update : 2025-07-27T17:49:04.000+02:00
+  Signature : 37674f5a715cdd3252550c152219903de56278c9
   ***************************************************************************
 *)
 
@@ -80,6 +80,7 @@ type
     procedure Setvelocity(const Value: single);
   protected
     procedure DoTimerLoop(const FPS: Int64; const DeltaTime: Int64); override;
+    procedure DoResetSpeedAndPosition;
   public
     property StarField: TStarField read FStarField write SetStarField;
     property CenterX: single read FCenterX write SetCenterX;
@@ -167,11 +168,7 @@ end;
 procedure TfrmStarFieldBackgroundMainForm.FormCreate(Sender: TObject);
 begin
   inherited;
-  FCenterX := 0;
-  FCenterY := 0;
-  VX := 1 + random(5);
-  VY := 1 + random(5);
-  velocity := 1;
+  DoResetSpeedAndPosition;
 end;
 
 procedure TfrmStarFieldBackgroundMainForm.imgStarFieldResized(Sender: TObject);
@@ -198,6 +195,15 @@ begin
     FStarField[i].Y := random(h * 3) - round(h * 1.5);
     FStarField[i].ZIndex := random(5); // 0 to 4
   end;
+end;
+
+procedure TfrmStarFieldBackgroundMainForm.DoResetSpeedAndPosition;
+begin
+  FCenterX := 0;
+  FCenterY := 0;
+  VX := 1 + random(5);
+  VY := 1 + random(5);
+  velocity := 1;
 end;
 
 procedure TfrmStarFieldBackgroundMainForm.SetCenterX(const Value: single);
