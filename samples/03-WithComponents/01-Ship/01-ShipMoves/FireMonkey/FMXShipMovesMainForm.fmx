@@ -6,6 +6,7 @@ inherited frmShipMovesMainForm: TfrmShipMovesMainForm
       item
       end>
     Align = Center
+    HitTest = False
     Size.Width = 64.000000000000000000
     Size.Height = 50.000000000000000000
     Size.PlatformDefault = False
