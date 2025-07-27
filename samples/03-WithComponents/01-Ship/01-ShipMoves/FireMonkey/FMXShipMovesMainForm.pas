@@ -25,8 +25,8 @@
   https://github.com/DeveloppeurPascal/LoopingAnimationDemo
 
   ***************************************************************************
-  File last update : 2025-07-27T17:07:24.000+02:00
-  Signature : 20db08f8e3fd20ee4904167d10c7dc7da474cf16
+  File last update : 2025-07-27T17:19:04.000+02:00
+  Signature : a920dfb18297efbdf69f092a332db751cacbd6b0
   ***************************************************************************
 *)
 
@@ -82,22 +82,17 @@ uses
 procedure TfrmShipMovesMainForm.ChooseAShip;
 var
   BMP: TBitmap;
-  Size: TSize;
   wh: integer;
 begin
   ShipID := random(dmShips.ImageList.Count);
   wh := round(CShipSize * imgShip.bitmap.BitmapScale);
-  Size := TSize.Create(wh, wh);
-  if dmShips.ImageList.BestSize(ShipID, Size) then
-    BMP := dmShips.ImageList.bitmap(Size, ShipID)
-  else
-    BMP := nil;
+  BMP := dmShips.ImageList.bitmap(TSize.Create(wh, wh), ShipID);
 
   if not assigned(BMP) then
     raise Exception.Create('Can''t choose a ship ! (' + ShipID.tostring + ')');
 
-  imgShip.Width := Size.Width;
-  imgShip.Height := Size.Height;
+  imgShip.Width := BMP.Width / imgShip.bitmap.BitmapScale;
+  imgShip.Height := BMP.Height / imgShip.bitmap.BitmapScale;
   imgShip.bitmap.assign(BMP);
 end;
 
