@@ -27,6 +27,8 @@
     <Source>.\03-WithComponents\01-Ship\02-ShipExplosions\FireMonkey\FMXShipExplosions.dpr</Source>
     <Source>.\03-WithComponents\02-Meteors\01-MeteorsMoves\FireMonkey\FMXMeteorMoves.dpr</Source>
     <Source>.\03-WithComponents\02-Meteors\02-MeteorsExplosions\FireMonkey\FMXMeteorsExplosions.dpr</Source>
+    <Source>.\03-WithComponents\03-Planets\FireMonkey\FMXPlanetsSample.dpr</Source>
+    <Source>.\03-WithComponents\04-SoundEffectsAndBackgroundMusic\FireMonkey\FMXWithSoundEffectsAndMusicSample.dpr</Source>
   </Sources>
   <Outputs>
     <Output Type="HTML">
