@@ -24,6 +24,12 @@
         <Projects Include="03-WithComponents\02-Meteors\02-MeteorsExplosions\FireMonkey\FMXMeteorsExplosions.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="03-WithComponents\03-Planets\FireMonkey\FMXPlanetsSample.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="03-WithComponents\04-SoundEffectsAndBackgroundMusic\FireMonkey\FMXWithSoundEffectsAndMusicSample.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -95,14 +101,32 @@
     <Target Name="FMXMeteorsExplosions:Make">
         <MSBuild Projects="03-WithComponents\02-Meteors\02-MeteorsExplosions\FireMonkey\FMXMeteorsExplosions.dproj" Targets="Make"/>
     </Target>
+    <Target Name="FMXPlanetsSample">
+        <MSBuild Projects="03-WithComponents\03-Planets\FireMonkey\FMXPlanetsSample.dproj"/>
+    </Target>
+    <Target Name="FMXPlanetsSample:Clean">
+        <MSBuild Projects="03-WithComponents\03-Planets\FireMonkey\FMXPlanetsSample.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FMXPlanetsSample:Make">
+        <MSBuild Projects="03-WithComponents\03-Planets\FireMonkey\FMXPlanetsSample.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FMXWithSoundEffectsAndMusicSample">
+        <MSBuild Projects="03-WithComponents\04-SoundEffectsAndBackgroundMusic\FireMonkey\FMXWithSoundEffectsAndMusicSample.dproj"/>
+    </Target>
+    <Target Name="FMXWithSoundEffectsAndMusicSample:Clean">
+        <MSBuild Projects="03-WithComponents\04-SoundEffectsAndBackgroundMusic\FireMonkey\FMXWithSoundEffectsAndMusicSample.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FMXWithSoundEffectsAndMusicSample:Make">
+        <MSBuild Projects="03-WithComponents\04-SoundEffectsAndBackgroundMusic\FireMonkey\FMXWithSoundEffectsAndMusicSample.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="FMXShowFPS;VCLShowFPS;FMXStarFieldBackground;FMXShipMoves;FMXShipExplosions;FMXMeteorMoves;FMXMeteorsExplosions"/>
+        <CallTarget Targets="FMXShowFPS;VCLShowFPS;FMXStarFieldBackground;FMXShipMoves;FMXShipExplosions;FMXMeteorMoves;FMXMeteorsExplosions;FMXPlanetsSample;FMXWithSoundEffectsAndMusicSample"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="FMXShowFPS:Clean;VCLShowFPS:Clean;FMXStarFieldBackground:Clean;FMXShipMoves:Clean;FMXShipExplosions:Clean;FMXMeteorMoves:Clean;FMXMeteorsExplosions:Clean"/>
+        <CallTarget Targets="FMXShowFPS:Clean;VCLShowFPS:Clean;FMXStarFieldBackground:Clean;FMXShipMoves:Clean;FMXShipExplosions:Clean;FMXMeteorMoves:Clean;FMXMeteorsExplosions:Clean;FMXPlanetsSample:Clean;FMXWithSoundEffectsAndMusicSample:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="FMXShowFPS:Make;VCLShowFPS:Make;FMXStarFieldBackground:Make;FMXShipMoves:Make;FMXShipExplosions:Make;FMXMeteorMoves:Make;FMXMeteorsExplosions:Make"/>
+        <CallTarget Targets="FMXShowFPS:Make;VCLShowFPS:Make;FMXStarFieldBackground:Make;FMXShipMoves:Make;FMXShipExplosions:Make;FMXMeteorMoves:Make;FMXMeteorsExplosions:Make;FMXPlanetsSample:Make;FMXWithSoundEffectsAndMusicSample:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
