@@ -1,0 +1,4 @@
+inherited frmPlanetsMainForm: TfrmPlanetsMainForm
+  Caption = 'frmMeteorsExplosionsMainForm2'
+  DesignerMasterStyle = 0
+end
