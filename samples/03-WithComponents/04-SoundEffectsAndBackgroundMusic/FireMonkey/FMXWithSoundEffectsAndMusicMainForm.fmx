@@ -1,0 +1,4 @@
+inherited frmWithSoundEffectsAndMusicMainForm: TfrmWithSoundEffectsAndMusicMainForm
+  Caption = 'frmWithSoundEffectsAndMusicMainForm'
+  DesignerMasterStyle = 0
+end
