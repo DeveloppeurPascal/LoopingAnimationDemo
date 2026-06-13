@@ -1,6 +1,6 @@
 # Action Synth Track
 
-Author: PeterTheSurgeon
+Author: PetterTheSurgeon
 https://opengameart.org/content/action-synth-track
 
 Distributed under license CC-BY
