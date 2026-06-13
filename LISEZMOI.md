@@ -2,6 +2,19 @@
 
 [This page in English.](README.md)
 
+> [!WARNING]
+> Suite à la décision de Microsoft de fondre GitHub dans sa division IA à l'été 2025 et donc de ne considérer ce que nous publions dessus que comme une source d'entrainement de ses modèles sans contre partie (à part l'hébergement des codes sources) ou nous abreuver de leurs injonctions à utiliser Copilot partout, pour tout et n'importe quoi, j'ai pris la décision d'arrêter la maintenance des dépôts ici.
+>
+> La maintenance de ce projet est déplacée vers Codeberg sur https://codeberg.org/DeveloppeurPascal/LoopingAnimationDemo
+>
+> Codeberg est un hébergement associatif situé en Europe, respectueux des développeurs, de la licence de chaque projet et de la vie privée des personnes qui s'y connectent.
+
+> [!NOTE]
+> Pour ouvrir ou intervenir sur un ticket de ce projet, rendez-vous sur https://codeberg.org/DeveloppeurPascal/LoopingAnimationDemo/issues
+> Pour faire un PULL REQUEST sur ce projet, rendez-vous sur https://codeberg.org/DeveloppeurPascal/LoopingAnimationDemo/pulls
+> Pour toute autre information ou me contacter vous pouvez aussi consulter le devlog du projet sur https://developpeur-pascal.fr/looping-animation-demo.html
+> Ce dépôt de code sera archivé une fois la migration terminée et ne bénéficiera plus de mise à jour sur GitHub.
+
 Ce dépôt contient plusieurs projets destinées à faire des tests de dessins d'animations consommatrices en CPU et voir de quelle façon les gérer avec un nombre de FPS ("frame per second") stable ou en tout cas de limiter la consommation machine inutile sur les appareils peu puissants.
 
 Ce dépôt de code contient un projet développé en langage Pascal Objet sous Delphi. Vous ne savez pas ce qu'est Dephi ni où le télécharger ? Vous en saurez plus [sur ce site web](https://delphi-resources.developpeur-pascal.fr/).
@@ -14,7 +27,7 @@ Suivez mes streams de développement de logiciels, jeux vidéo, applications mob
 
 ## Installation des codes sources
 
-Pour télécharger ce dépôt de code il est recommandé de passer par "git" mais vous pouvez aussi télécharger un ZIP directement depuis [son dépôt GitHub](https://github.com/DeveloppeurPascal/LoopingAnimationDemo).
+Pour télécharger ce dépôt de code il est recommandé de passer par "git" mais vous pouvez aussi télécharger un ZIP directement depuis [son dépôt Codeberg](https://codeberg.org/DeveloppeurPascal/LoopingAnimationDemo).
 
 Ce projet utilise des dépendances sous forme de sous modules. Ils seront absents du fichier ZIP. Vous devrez les télécharger à la main.
 
@@ -27,7 +40,7 @@ Je passe par des commentaires au format [XMLDOC](https://docwiki.embarcadero.com
 
 J'utilise régulièrement l'outil [DocInsight](https://devjetsoftware.com/products/documentation-insight/) pour les saisir et contrôler leur formatage.
 
-L'export de la documentation est fait en HTML par [DocInsight](https://devjetsoftware.com/products/documentation-insight/) ou [PasDoc](https://pasdoc.github.io) vers le dossier /docs du dépôt. Vous y avez aussi [accès en ligne](https://developpeurpascal.github.io/LoopingAnimationDemo) grâce à l'hébergement offert par GitHub Pages.
+L'export de la documentation est fait en HTML par [DocInsight](https://devjetsoftware.com/products/documentation-insight/) ou [PasDoc](https://pasdoc.github.io) vers le dossier /docs du dépôt.
 
 D'autres informations (tutoriels, articles, vidéos, FAQ, présentations et liens) sont disponibles sur [le devlog du projet](https://developpeur-pascal.fr/looping-animation-demo.html).
 
@@ -41,7 +54,7 @@ Normalement mes librairies et composants doivent aussi fonctionner au moins sur 
 
 Aucune garantie de compatibilité avec des versions antérieures n'est fournie même si je m'efforce de faire du code propre et ne pas trop utiliser les nouvelles façons d'écrire dedans (type inference, inline var et multilines strings).
 
-Si vous détectez des anomalies sur des versions antérieures n'hésitez pas à [les rapporter](https://github.com/DeveloppeurPascal/LoopingAnimationDemo/issues) pour que je teste et tente de corriger ou fournir un contournement.
+Si vous détectez des anomalies sur des versions antérieures n'hésitez pas à [les rapporter](https://codeberg.org/DeveloppeurPascal/LoopingAnimationDemo/issues) pour que je teste et tente de corriger ou fournir un contournement.
 
 ## Licence d'utilisation de ce dépôt de code et de son contenu
 
@@ -58,7 +71,7 @@ Les codes sources de ce dépôt de code comme leur éventuelle version compilée
 
 ## Comment demander une nouvelle fonctionnalité, signaler un bogue ou une faille de sécurité ?
 
-Si vous voulez une réponse du propriétaire de ce dépôt la meilleure façon de procéder pour demander une nouvelle fonctionnalité ou signaler une anomalie est d'aller sur [le dépôt de code sur GitHub](https://github.com/DeveloppeurPascal/LoopingAnimationDemo) et [d'ouvrir un ticket](https://github.com/DeveloppeurPascal/LoopingAnimationDemo/issues).
+Si vous voulez une réponse du propriétaire de ce dépôt la meilleure façon de procéder pour demander une nouvelle fonctionnalité ou signaler une anomalie est d'aller sur [le dépôt de code sur Codeberg](https://codeberg.org/DeveloppeurPascal/LoopingAnimationDemo) et [d'ouvrir un ticket](https://codeberg.org/DeveloppeurPascal/LoopingAnimationDemo/issues).
 
 Si vous avez trouvé une faille de sécurité n'en parlez pas en public avant qu'un correctif n'ait été déployé ou soit disponible. [Contactez l'auteur du dépôt en privé](https://developpeur-pascal.fr/nous-contacter.php) pour expliquer votre trouvaille.
 
